@@ -10,7 +10,7 @@ int main () {
 
   for (int i=0; i<N; i++){
     scanf(" %c", &ch);
-
+  
     if (ch >= 'a' && ch <= 'z'){
        a++;
       if (a > am) am = a;
@@ -27,6 +27,7 @@ int main () {
     else {
       b = 0;
     }
+  }
   printf("%d\n", am);
   printf("%d\n", bm);
 
