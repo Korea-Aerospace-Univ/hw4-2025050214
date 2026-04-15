@@ -14,14 +14,17 @@ int main () {
     if (ch >= 'a' && ch <= 'z'){
       a++;
       if (a > am) am = a;
+    else{
+        a = 0;
+      }
     }
-    else if (ch >= '0' && ch <='9'){
+  
+    
+    if (ch >= '0' && ch <='9'){
       b++;
-      a = 0;
       if (b > bm) bm = b;
     }
     else {
-      a = 0;
       b = 0;
     }
   }
