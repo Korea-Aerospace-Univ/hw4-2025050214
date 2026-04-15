@@ -12,11 +12,11 @@ int main () {
 
     if (num > answer) {
       printf("%d>?\n", num);
-      printf("%d보다 낮습니다\n", num);
+      printf("%d 보다 낮습니다\n", num);
     }
     else if (num < answer) {
       printf("%d<?\n", num);
-      printf("%d보다 높습니다\n", num);
+      printf("%d 보다 높습니다\n", num);
     }
     else {
       printf("%d==?\n", num);
