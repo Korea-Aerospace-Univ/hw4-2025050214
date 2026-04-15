@@ -20,6 +20,6 @@ int main () {
       printf("%d==?\n", num);
     }
   } while (num != answer);
-  printf("%d %d\n", answer, count);
+  printf("%d\n", count);
   return 0;
 }
