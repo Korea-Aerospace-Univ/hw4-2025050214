@@ -23,6 +23,6 @@ int main () {
       printf("%d 정답입니다\n", num);
     }
   } while (num != answer);
-  printf("%d -> 시도횟수는 %d회\n", answer, count);
+  printf("%d ↦ 시도횟수는 %d회\n", answer, count);
   return 0;
 }
