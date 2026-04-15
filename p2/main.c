@@ -9,14 +9,14 @@ int main () {
   scanf("%d", &N);
 
   for (int i=0; i<N; i++){
-    scanf("%c", &ch);
+    scanf(" %c", &ch);
 
     if (ch >= 'a' && ch <= 'z'){
-      a++;
+       a++;
       if (a > am) am = a;
+    }
     else{
         a = 0;
-      }
     }
   
     
@@ -27,9 +27,8 @@ int main () {
     else {
       b = 0;
     }
-  }
-  printf("%d\n", am)
-  printf("%d\n", bm)
+  printf("%d\n", am);
+  printf("%d\n", bm);
 
   return 0;
 }
