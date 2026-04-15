@@ -2,7 +2,7 @@
 int main () {
   int answer;
   int num;
-  int count = 0;
+  int count =0;
 
   scanf("%d", &answer);
 
